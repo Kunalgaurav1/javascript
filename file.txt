@@ -39,6 +39,38 @@ object -->> object is like ek bande ki saari property
 
 
 
+PART 2
+
+var , let , const 
+
+diffrence between var vs let , const 
+
+var -- >> var is function scoped it means hum jo v hum variable declare krenge usko kahi v uss function me use kr skte hai 
+and also var apne parent function me kahi v use ho skta hai 
+var old js me tha 
+var itself to the window object
+
+let new js me hai
+let -->> let const braces scoped hot hai 
+let const doesn't add itself to window object
+
+
+execution context --
+
+execution context is like a dabba ..jo ki har baar banta hai jab koi function call hota hai aur uss dabbe me (execution context) me teen cheeje hoti hai 
+1. variables 
+2. functions 
+3. lexical environment
+
+lexical environment ek chart type hota hai jisme ye likha hota hai ki apka perticular function kin kin cheejo ko access kar skta hai mtlb it holds it's scope and scope chain 
+
+how to copy reference values?
+
+-->> By using spread operator [...]
+
+
+
+
 
 
 

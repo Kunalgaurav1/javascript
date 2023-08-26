@@ -25,6 +25,44 @@ var kunal = {
 
 }
 
+//variable is function scoped 
+
+function abcd(){
+    for(let i =0; i<12; i++){
+        console.log(i);
+
+        var a = kunal;
+
+    
+    }
+    // console.log(i);
+}
+
+abcd()
+
+
+function def(){
+     
+    for(let a = 1; a<7; a++){
+        console.log(a);
+    }
+
+}
+
+def();
+
+//how to copy reference values?
+
+var p = [1,2,3,4,5];
+
+var w = [...p];
+
+w.pop();
+
+
+var obj = {name:"kunal"};
+
+var copyobj = {...obj};
 
 
 
