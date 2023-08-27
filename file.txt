@@ -69,12 +69,67 @@ how to copy reference values?
 -->> By using spread operator [...]
 
 
+js me kuch v likho wo mainly do prakar me se kisi ek prakar ko belong krti hai 
+i.e falsy or truthy 
+
+falsy value ye hai -->> 0 false undefined null NaN(not a number) document.all
+
+falsy ko chord k jitne v hai wo truthy honge 
+
+
+callback function
+-->> aisa code jo baad me chalta hai use hum ek function de dete hai ke bhaiya jab complete ho jana to ye function chala dena, aur wo function jo hum dete hai wo ek normal function hi hota hai aur kehte hai callback function  
 
 
 
 
+FIRST CLASS FUNCTIONS
+
+js me ek concept hota hai jiska matlab hota hai ki ap function ko use kr skte hai as a value
+
+var a = 23;
+var a = 2;
+
+var a = {};
+var a = [];
+var a = true;
+
+similarly we can,
+
+var a = function(){}; 
 
 
+how arrays are made behind the scenes?
+
+var a = [2,3,4,5,4];
+
+but behind the scene it stored in the form 
+
+a = {
+    0: 2,
+    1: 3,
+    2: 4,
+    3: 5,
+    4: 4
+}
+mtlb ki ye object k form me values store krta hai 
+
+[], {} -->> dono object hi hai
+
+To check array is array or not 
+
+console me jake ye likho
+
+Array.isArray([])
+-->> true
+
+Array.isArray({})
+-->>> false
+
+
+koi v attribute hatana hai kisi v object ka 
+
+then we use delete a.age(); isse a object ka age attribute hat jayega uss object se 
 
 
 
