@@ -1,0 +1,4 @@
+1. Given a string , reverse each wordd in the sentence
+
+2. How to check if an object is an array or not ?
+provide code 

@@ -1,4 +1,6 @@
 1. word vs keyword 
+word wo hai jo ki koi v general word we use and keyword wo hai jiska kuch matlb hota hai js me 
+
 2. var let const
 3. Hoisting -->> variables ko banane se phle use use kr skte hai 
 
@@ -48,7 +50,7 @@ diffrence between var vs let , const
 var -- >> var is function scoped it means hum jo v hum variable declare krenge usko kahi v uss function me use kr skte hai 
 and also var apne parent function me kahi v use ho skta hai 
 var old js me tha 
-var itself to the window object
+var add itself to the window object
 
 let new js me hai
 let -->> let const braces scoped hot hai 
@@ -72,7 +74,7 @@ how to copy reference values?
 js me kuch v likho wo mainly do prakar me se kisi ek prakar ko belong krti hai 
 i.e falsy or truthy 
 
-falsy value ye hai -->> 0 false undefined null NaN(not a number) document.all
+falsy value ye hai -->> 0, false, undefined, null, NaN(not a number), document.all
 
 falsy ko chord k jitne v hai wo truthy honge 
 
