@@ -124,5 +124,7 @@ var arr = [22,44,55,66];
 
 arr[-1] = 77;  //isko krte hi tum ddekh skte ho console me jake ki ye apne asli roop me aa jayega 
 
+//i will continue this later
+
 
 
