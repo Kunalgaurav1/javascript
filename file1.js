@@ -128,3 +128,68 @@ arr[-1] = 77;  //isko krte hi tum ddekh skte ho console me jake ki ye apne asli 
 
 
 
+//Example 1 for constructor function
+function abcd(){
+    this.name = "kunal";
+}
+
+var person1 = new abcd();
+
+
+
+
+
+//Example 2 for constructor function
+
+console.log(person1);
+
+function person(firstname, lastname){
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.fullname = function(){
+        return (this.firstname + ' ' + this.lastname) ;
+    }
+
+}
+
+
+var person2 = new person("rakesh", "yeadav");
+var female = new person("priti", "chahal")
+
+console.log(person2.firstname);
+console.log(female.fullname());
+
+
+//IIFE
+
+var chirkut = (function(){
+
+    var privatevar = 9;
+
+})();
+
+console.log("kunal");
+console.log(chirkut);//cannot be accessible 
+console.log("gaurav");
+
+
+//use of MAP
+
+var arr = [1,2,3,4,5,6];
+
+var newarr = arr.map(function(e){
+    return e*2;
+})
+
+console.log(newarr)
+
+
+//use of FILTER
+
+var num = [1,2,3,4,5,6];
+
+var newnumber = num.filter(function(val){
+    return val>5;
+})
+
+console.log(newnumber)
